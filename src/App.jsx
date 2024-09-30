@@ -8,7 +8,7 @@ const App = () => {
 
   
       {/* Navbar */}
-      <div className="h-screen">
+      <div className="md:h-screen">
       <header className="flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-xl font-bold">Logo</div>
