@@ -5,6 +5,10 @@ const App = () => {
 
   return (
     <div className=" min-h-screen py-10 px-[50px] md:px-[100px] font-sans text-gray-900">
+
+      <div className="h-screen">
+
+      </div>
       {/* Navbar */}
       <header className="flex justify-between items-center py-4">
         {/* Logo */}
