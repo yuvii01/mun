@@ -6,10 +6,9 @@ const App = () => {
   return (
     <div className=" min-h-screen py-10 px-[50px] md:px-[100px] font-sans text-gray-900">
 
-      <div className="h-screen">
-
-      </div>
+  
       {/* Navbar */}
+      <div className="h-screen">
       <header className="flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-xl font-bold">Logo</div>
@@ -68,7 +67,7 @@ const App = () => {
       </header>
 
       {/* Main Content */}
-      <main className="mt-16 grid md:grid-cols-2 gap-16">
+      <main className="mt-16 grid md:grid-cols-2 gap-16 ">
         {/* Left Section */}
         <div>
         <p className="text-lg mb-6 font-semibold">
@@ -89,17 +88,18 @@ const App = () => {
         </div>
 
         {/* Right Section */}
-        <div className="flex mt-[-20px] pb-[20px] justify-center">
+        <div className="flex mt-[-20px] justify-center">
           <img
             src="/imges/HeaderImage 1.png"
             alt="Visual Designer"
-            className="h-auto rounded-full"
+            className="h-[400px] rounded-full"
           />
           {/* Decorative shapes */}
           {/* <div className="absolute top-0 right-0 bg-red-500 h-16 w-16 rounded-bl-full"></div>
           <div className="absolute top-0 left-8 bg-green-500 h-16 w-16 rounded-tr-full"></div> */}
         </div>
       </main>
+      </div>
 
       {/* Companies Section */}
       {/* <section className="flex ">
@@ -110,7 +110,7 @@ const App = () => {
         <img src="https://via.placeholder.com/100" alt="Adidas" className="w-20 md:w-24" />
       </section> */}
 
-      <section className="grid grid-cols-5  md:mx-10 flex-wrap justify-center mt-20 ">
+      <section className="grid grid-cols-5  md:mx-10 flex-wrap justify-center  ">
      <div className='flex justify-center items-center'>
      <img src="/imges/Group 5334.png" alt="Google" className="w-15 md:w-36 h-5 md:h-10 " />
      </div>
